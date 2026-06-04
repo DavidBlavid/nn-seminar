@@ -1,0 +1,9 @@
+# install with: pip install torch==2.4.0 torchvision==0.19.0 --index-url https://download.pytorch.org/whl/cu121
+# (last version with CUDA kernel support for Pascal / CC 6.1 GPUs)
+torch==2.4.0
+torchvision==0.19.0
+numpy>=1.26.0,<2.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+tqdm>=4.66.0
+huggingface_hub>=0.23.0
